@@ -1,2 +1,3 @@
-# jonathanbcarlson.github.io
-## hi
+# Jonathan Carlson
+## UCLA Cog Sci 
+### Interested in AI
