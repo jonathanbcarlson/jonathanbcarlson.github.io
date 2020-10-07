@@ -13,7 +13,9 @@
 
 #main {
   position: absolute;
+  display: flex;
   justify-content: center;
+  align-items: center;
   top: 35%;
   height: 50vh;
 }
@@ -27,12 +29,14 @@
 
 h1 {
   color: white;
+  display: flex;
   text-align: center;
   justify-content: center;
 }
 
 p {
   color: white;
+  display: flex;
   text-align: center;
   justify-content: center;
 }
