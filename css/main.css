@@ -1,10 +1,10 @@
 #profile {
   position: fixed;
-  top: 15%;
+  top: 50%;
   left: 50%
   transform: translate(-50%, -20%);
 
-  height: 20%;
+  height: 15%;
   max-width: 200px;
   max-height: 100px;
   width: auto;
