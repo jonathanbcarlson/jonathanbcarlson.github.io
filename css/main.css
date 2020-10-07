@@ -1,7 +1,12 @@
-body {
-  background-color: black;
-}
+/* #profile {
+  position: relative;
+  left: 50%;
+  top: 15%;
 
+  height: 40%;
+  width: audto;
+  border: 5px solid white;
+} */
 
 #main {
   position: absolute;
@@ -26,16 +31,9 @@ p {
   text-align: center;
 }
 
-#profile {
-  position: relative;
-  left: 50%;
-  top: 15%;
-
-  height: 20%;
-  width: audto;
-  border: 5px solid white;
+body {
+  background-color: black;
 }
-
 
 
 a:hover {
