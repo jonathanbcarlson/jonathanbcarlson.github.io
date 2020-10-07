@@ -1,8 +1,8 @@
 #profile {
-  position: relative;
-  transform: translateX(50%);
+  position: fixed;
   top: 15%;
-
+  left: 50%
+  transform: translate(-50%, -20%);
 
   height: 20%;
   max-width: 200px;
@@ -16,6 +16,7 @@
   position: absolute;
   display: flex;
   text-align: center;
+  text-align:
   align-self: center;
   justify-content: center;
   top: 35%;
