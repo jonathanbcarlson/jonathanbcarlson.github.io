@@ -2,6 +2,19 @@ body {
   background-color: black;
 }
 
+#main {
+  position: absolute;
+  top: 25%;
+  height: 50vh;
+}
+
+#content {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  width: 80%;
+}
+
 h1 {
   color: white;
   text-align: center;
@@ -15,10 +28,13 @@ p {
 #profile {
   position: relative;
   left: 50%;
-  transform: translateX(-50%);
   top: 15%;
 
   height: 20%;
   width: audto;
   border: 5px solid white;
+}
+
+a:hover {
+  color: purple;
 }
