@@ -6,7 +6,7 @@
   margin-right: auto;
   height: 25%;
   width: auto;
-  border: 5px solid white;
+  border: 3px solid white;
 }
 
 /* #main {
@@ -25,11 +25,13 @@
 h1 {
   color: white;
   text-align: center;
+  justify-content: center;
 }
 
 p {
   color: white;
   text-align: center;
+  justify-content: center;
 }
 
 body {
@@ -38,5 +40,5 @@ body {
 
 
 a:hover {
-  color: darkred;
+  color: fuchsia;
 }
