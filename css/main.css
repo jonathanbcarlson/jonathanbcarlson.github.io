@@ -13,6 +13,7 @@
 
 #main {
   position: absolute;
+  justify-content: center;
   top: 35%;
   height: 50vh;
 }
