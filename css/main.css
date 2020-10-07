@@ -1,5 +1,12 @@
 #profile {
-  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  width: 10%;
+  border-radius: 50%;
+  border: 3px solid white;
+  /* position: relative;
   top: 100px;
   left: 600px;
   transform: translate(30%, 10%);
@@ -9,35 +16,30 @@
   max-height: 130px;
   width: auto;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid white; */
 }
 
 #content {
-  position: absolute;
-  display: flex;
-  /* text-align: center; */
+  /* display: flex;
   justify-content: center;
-  top: 35%;
-  width: 100%;
+  /* align-self: center; */
+  /* padding-top: 3%;; */
+  position: relative;
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  justify-self: center;
 }
-
-
 
 h1 {
   color: white;
-  display: flex;
-  position: relative;
-  left: 40px;
   text-align: center;
-  justify-content: center;
 }
 
 p {
   color: white;
-  position: relative;
-  top: 60px;
-  left: -200px;
-  display: flex;
   text-align: center;
 }
 
