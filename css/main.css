@@ -6,23 +6,23 @@
   margin-right: auto;
   height: 25%;
   width: auto;
-  max-width: 100px;
-  max-height: 25px;
+  max-width: 200px;
+  max-height: 100px;
   border: 3px solid white;
 }
 
-/* #main {
+#main {
   position: absolute;
-  top: 25%;
+  top: 35%;
   height: 50vh;
 }
 
-#content {
+/* #content {
   position: absolute;
   top: 45%;
   left: 10%;
   width: 80%;
-} */
+}  */
 
 h1 {
   color: white;
