@@ -9,4 +9,16 @@ h1 {
 
 p {
   color: white;
+  text-align: center;
+}
+
+#profile {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15%;
+
+  height: 20%;
+  width: audto;
+  border: 5px solid white;
 }
