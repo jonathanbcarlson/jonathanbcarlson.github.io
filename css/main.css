@@ -1,12 +1,13 @@
-/* #profile {
+#profile {
   position: relative;
   left: 50%;
+  transform: translateX(-50%);
   top: 15%;
 
-  height: 40%;
-  width: audto;
+  height: 20%;
+  width: auto;
   border: 5px solid white;
-} */
+}
 
 #main {
   position: absolute;
