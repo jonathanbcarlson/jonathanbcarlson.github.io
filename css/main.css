@@ -1,3 +1,4 @@
+/* profile photo */
 #profile {
   display: block;
   margin-left: auto;
@@ -7,7 +8,7 @@
   border-radius: 50%;
   border: 3px solid white;
 }
-
+/* div encompassing name and links */
 #content {
   position: relative;
   top: 30%;
@@ -18,11 +19,13 @@
   justify-self: center;
 }
 
+/* name */
 h1 {
   color: white;
   text-align: center;
 }
 
+/* links */
 p {
   color: white;
   text-align: center;
