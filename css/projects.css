@@ -1,0 +1,31 @@
+body {
+  background-color: rgba(0, 0, 0, 0.89);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+    text-align: left;
+    color: white;
+}
+
+a {
+  color: #007bff;
+}
+
+li {
+  color: white;
+}
+
+#homePageLink {
+  font-size: 20px;
+}
+
+#discovrImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

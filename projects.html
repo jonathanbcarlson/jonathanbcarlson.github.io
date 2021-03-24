@@ -4,16 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <link rel="stylesheet" href="css/projects.css">
+    <title>Projects by Jonathan Carlson</title>
 </head>
 <body>
-    <a href="index.html" aria=>Home Page</a>
+    <a id="homePageLink" href="index.html" aria=>Home Page</a>
     <h1>Projects by Jonathan Carlson</h1>
-    <h3><a href="https://discovr.netlify.app">Discovr</a></h3>
-    <p>Discovr plays a random song from Spotify. I worked with a <a href="https://pranavs2001.github.io/">friend</a> to create Discovr. 
-        It uses the  <a href='https://developer.spotify.com/documentation/web-playback-sdk/'>SpotifyPlaybackSDK</a> 
-        to play the song and the <a href='https://developer.spotify.com/documentation/web-api/'>Spotify Web API</a> 
-        to select a random song. Now go <a href="https://discovr.netlify.app">Discovr</a> a song!
-    </p>
+    <div id="projects">
+        <div id="insta-chef">
+            <h2><a target="_blank" rel="noopener noreferrer" href="http://insta-chef-ba8dc.web.app/">Insta-Chef</a></h2>
+            <p>
+                Insta-Chef is a recipe-finding website that leverages ingredients you have in your kitchen!
+            </p>
+            <ul>
+                <li>
+                    <p>I worked with Firebase Realtime Database and React to create a user-specific Pantry where the user can search for
+                        recipes based on the ingredient.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        I also worked on being able to look at recipes with a selected ingredient (the "View Recipes" button).
+                    </p>
+                </li>
+            </ul>
+            <p>
+                Check out Insta-Chef's source code 
+                <a 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    href="https://github.com/pranavs2001/Insta-Chef"
+                >here</a>.
+            </p>
+            <p>Here's some screenshots of what Insta-Chef looks like: </p>
+            <ul>
+                <li>
+                    <p>The Pantry tab</p>
+                    <img src="/assets/Pantry.png" width="80%" height="80%" alt="Screenshot of Pantry tab from Insta-Chef">
+                </li>
+                <li>
+                    <p>The Search tab</p>
+                    <img src="/assets/Search.png" width="80%" height="80%" alt="Screenshot of Search tab from Insta-Chef">
+                </li>
+                <li>
+                    <p>The Favorites tab</p>
+                    <img src="/assets/Favorites.png" width="80%" height="80%" alt="Screenshot of Favorites tab from Insta-Chef">
+                </li>
+                <li>
+                    <p>The Profile tab</p>
+                    <img src="/assets/Profile.png" width="80%" height="80%" alt="Screenshot of Profile tab from Insta-Chef">
+                </li>
+                <li>
+                    <p>The Homepage tab</p>
+                    <img src="/assets/Homepage.png" width="80%" height="80%" alt="Screenshot of Homepage tab from Insta-Chef">
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div id="discovr">
+            <!-- TODO: // add discovr logo -->
+            <h2><a target="_blank" rel="noopener noreferrer" href="https://discovr.netlify.app">Discovr</a></h2>
+            <p>DisCovr plays a random song from Spotify! I worked with a friend, <a href="https://pranavs2001.github.io/">Pranav Srinivasan</a> to create Discovr. 
+                It uses the  <a href='https://developer.spotify.com/documentation/web-playback-sdk/'>SpotifyPlaybackSDK</a> 
+                to play the song and the <a href='https://developer.spotify.com/documentation/web-api/'>Spotify Web API</a> 
+                to select a random song. Now go <a href="https://discovr.netlify.app">DisCovr</a>!
+            </p>
+            <p>
+                Check out DisCover's source code 
+                <a 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    href="https://github.com/jonathanbcarlson/bloom"
+                >here</a>.
+            </p>
+            <p>Here's a screenshot of what DisCover looks like: </p>
+            <img id="discovrImage" src="/assets/DisCovr.png" width="80%" height="80%" alt="Screenshot of DisCovr page">
+        </div>
+    </div>
 </body>
 </html>

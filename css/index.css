@@ -1,7 +1,7 @@
 /* profile photo */
 #profile {
   display: block;
-  margin-left: auto;
+  margin-left: 45%;
   margin-right: auto;
   margin-top: 10%;
   width: 10%;
@@ -32,10 +32,11 @@ p {
 }
 
 body {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.89);
 }
 
-
-a:hover {
-  color: fuchsia;
+#otherPages {
+  float: left;
+  margin-left: 5%;
+  font-size: 20px;
 }
