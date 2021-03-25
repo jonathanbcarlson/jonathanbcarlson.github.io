@@ -19,6 +19,17 @@
   justify-self: center;
 }
 
+@media (max-width: 400px) {
+  #profile {
+    width: 20%;
+    float: left;
+    margin-left: 40%;
+  }
+  #otherPages {
+    margin-top: 5%;
+  }
+}
+
 /* name */
 h1 {
   color: white;
