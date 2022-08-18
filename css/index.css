@@ -7,34 +7,24 @@
 }
 
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* profile photo */
 #profile {
-  display: block;
-  margin-left: 45%;
-  margin-right: auto;
+  /* https://stackoverflow.com/a/16943434/14842908 */
+  margin-left: calc( 100vw *.45);
   margin-top: 10%;
   width: 10%;
   border-radius: 50%;
   border: 3px solid white;
 }
-/* div encompassing name and links
-#content {
-  position: relative;
-  top: 30%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  justify-self: center;
-} */
 
 @media (max-width: 400px) {
-  #profile {
-    width: 20%;
-    float: left;
-    margin-left: 40%;
-  }
-  #otherPages {
+    #otherPages {
     margin-top: 5%;
   }
 }
@@ -45,11 +35,6 @@ h1 {
   text-align: center;
 }
 
-/* links */
-/* p {
-  color: white;
-  text-align: center;
-} */
 
 .button {
   display: inline-block;
@@ -97,8 +82,6 @@ h1 {
     margin-right: 3%;
   }
 }
-
-
 
 body {
   background-color: var(--background-color);
