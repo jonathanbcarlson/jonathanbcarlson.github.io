@@ -3,7 +3,6 @@
 :root{
   --background-color:  rgba(0, 0, 0, 0.89);
   --main-blue: #007bff;
-  --font-size-root: 18px;
 }
 
 
@@ -16,19 +15,38 @@
 /* profile photo */
 #profile {
   /* https://stackoverflow.com/a/16943434/14842908 */
-  margin-left: calc( 100vw *.45);
+  margin-left: calc( 100vw *.25);
   margin-top: 10%;
   width: 10%;
   border-radius: 50%;
-  border: 3px solid white;
 }
 
-@media (max-width: 400px) {
-    #otherPages {
-    margin-top: 5%;
-  }
+/* default text font size */
+#text {
+    font-size: large;
 }
 
+/* for phones */
+@media (max-width: 450px) {
+    #profile {
+        margin-left: calc( 100vw *.37);
+        width: 30%;
+    }
+    #text {
+        font-size: large;
+    }
+}
+
+/* for tablets eg iPad*/
+@media (min-width: 750px) and (max-width: 1300px) {
+    #profile {
+        margin-left: calc( 100vw *.03);
+        width: 20%;
+    }
+    #text {
+        font-size: x-large;
+    }
+}
 /* name */
 h1 {
   color: white;
@@ -39,7 +57,6 @@ h1 {
 .button {
   display: inline-block;
   background: none;
-  font-size: 1rem;
   font-weight: bold;
 
   border: 1px solid var(--main-blue);
@@ -61,11 +78,10 @@ h1 {
 
 .buttons {
   color: white;
-  font-size: 1em;
   font-weight: bold;
 
   margin-top: 1em;
-  margin-left: 30%;
+  margin-left: 34%;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -87,8 +103,7 @@ body {
   background-color: var(--background-color);
 }
 
-#otherPages {
+.otherPages {
   float: left;
   margin-left: 5%;
-  font-size: 20px;
 }
