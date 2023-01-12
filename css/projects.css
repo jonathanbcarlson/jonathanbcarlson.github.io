@@ -7,6 +7,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color: white;
+}
+
 p {
     text-align: left;
     color: white;
@@ -24,7 +28,7 @@ li {
   font-size: 20px;
 }
 
-#discovrImage {
+#centeredImage {
   display: block;
   margin-left: auto;
   margin-right: auto;
