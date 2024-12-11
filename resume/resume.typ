@@ -100,6 +100,7 @@
   models which were used to optimize calibration times. 
 ]
 
+/*
 #work_experience_item_header(
   link("https://www.hydropoint.com/")[HydroPoint Data Systems],
   "Petaluma, California",
@@ -112,8 +113,24 @@
 - Successfully handled my workload for both this internship and
   4 summer courses at UCLA.
 ]
+*/
 
 #resume_section("Projects")
+
+#personal_project_item_header(
+  "Masters Capstone Project",
+  "Los Angeles, California",
+  "Computer Science Department, UCLA",
+  "Sep. 2023 - July. 2024",
+)
+
+#resume_item[
+- Created an automated resource leak fixer using large language models (LLMs)
+  such as OpenAI's GPT-4o.
+- Fixed 69.4% of leaks found by static analysis tools when evaluated
+  on a Java dataset (NJR-1) of \~300 programs.
+- For more information, read my #link("https://jonathanbcarlson.com/files/capstone.pdf")[capstone paper].
+]
 
 #personal_project_item_header(
   link("https://projects.ieeebruins.com/micromouse/")[Micromouse (IEEE at UCLA Project)],
